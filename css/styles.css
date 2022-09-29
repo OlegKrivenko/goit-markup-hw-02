@@ -151,6 +151,9 @@ body {
    text-align: center;
    letter-spacing: 0.03em;
 }
+.team-item {
+   background-color: var(--base-background);
+}
 .team-title,
 .team-subtitle {
    font-weight: 500;
