@@ -20,6 +20,8 @@
    --action-second-color: #ffffff;
    --action-button-background: #2196f3;
    --action-button-second-background: #188ce8;
+
+   --border-color: #eeeeee;
 }
 ul {
    list-style: none;
@@ -100,7 +102,7 @@ body {
 }
 
 /* Секція "feature", Особливості */
-/* .visually-hidden: прибрано заголовок h2 Особливості */
+/* .visually-hidden прибирає заголовок h2 - "Особливості" */
 .visually-hidden {
    position: absolute;
    white-space: nowrap;
@@ -186,7 +188,7 @@ body {
    color: var(--action-color);
 }
 
-/* ----------------   Сторінка " Портфоліо   ----------- "  */
+/* ----------------   Сторінка " Портфоліо (2-га сторінка)   ----------- "  */
 /* фільтер */
 .filter-item {
    font-family: inherit;
@@ -210,7 +212,7 @@ body {
 /* Список проектів */
 .projects-item {
    background: var();
-   border: 1px solid #eeeeee;
+   border: 1px solid var(--border-color);
 }
 .projects-title {
    font-weight: 700;
